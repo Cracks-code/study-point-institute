@@ -1,12 +1,12 @@
-import Hading from "@/components/Hading"
+import { WhatWeHave } from "@/components"
+import Hading from "@/components/utils/Hading"
 import Hero from "@/components/Hero"
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Hading hading="what we have" about_hading="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam aspernatur laboriosam ipsum unde accusamus eaque similique? Asperiores sit." />
-      
+      <WhatWeHave />
     </>
   )
 }

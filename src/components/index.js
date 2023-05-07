@@ -1,4 +1,4 @@
 import { default as Navbar } from './Navbar';
 import { default as Hero } from './Hero';
-import { default as TopDetailBar } from './TopDetailBar';
-import { default as Hading } from './Hading';
+export { default as WhatWeHave } from "./WhatWeHave";
+import { default as TopDetailBar } from './utils/TopDetailBar';

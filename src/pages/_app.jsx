@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar'
-import TopDetailBar from '@/components/TopDetailBar';
+import TopDetailBar from '@/components/utils/TopDetailBar';
 import '@/styles/globals.css'
 import { Poppins } from 'next/font/google';
 
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
     <>
       <TopDetailBar />
       <Navbar />
-      <div className={`${poppins.className} container antialiased`}>
+      <div className={`${poppins.className} antialiased`}>
         <Component {...pageProps} />
       </div>
     </>
