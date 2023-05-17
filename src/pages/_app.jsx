@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar'
-import TopDetailBar from '@/components/utils/TopDetailBar';
+import TopDetailBar from '@/components/TopDetailBar';
 import '@/styles/globals.css'
 import { Poppins } from 'next/font/google';
 

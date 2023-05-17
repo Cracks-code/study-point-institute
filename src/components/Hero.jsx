@@ -1,6 +1,5 @@
-import Image from "next/image";
 import { Outfit } from "next/font/google";
-import { RiAlignRight, RiArrowRightLine } from "react-icons/ri";
+import { RiArrowRightLine } from "react-icons/ri";
 
 const outfit = Outfit({
        variable: '-font-outfit',
