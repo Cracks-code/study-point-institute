@@ -30,6 +30,14 @@ const Navbar = () => {
                                    Courses
                             </Link>
                      </li>
+                     
+                     <li className={`group h-full px-3 text-sm md:text-lg text-white cursor-pointer relative`}>
+                            <span className={`w-0 group-hover:w-full h-[2px] bg-orange-600 duration-500 absolute top-0 left-0`}></span>
+                            <Link href="/">
+                                   Our Teachers
+                            </Link>
+                     </li>
+                     
                      <li className={`group h-full px-3 text-sm md:text-lg text-white cursor-pointer relative`}>
                             <span className={`w-0 group-hover:w-full h-[2px] bg-orange-600 duration-500 absolute top-0 left-0`}></span>
                             <Link href="/">
